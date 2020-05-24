@@ -1,0 +1,34 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+ 
+struct student(){
+	int id;
+	char name[50];
+}st;
+ 
+int insert data();
+int view data();
+ 
+ int main()
+ {
+ 	int ch;
+ 	printf("1.insert data\n 2.view data");
+ 	printf("enter your choice");
+ 	scanf("%d",ch);
+ 	if (ch==1){
+ 		insert data();
+	 }
+	 elseif(ch==2){
+	 	view data;
+	 }
+	 else{
+	 	("invalid data");
+	 	main();
+	 }
+	 return 0;
+ }
+ 
+ 
+ 
+ 

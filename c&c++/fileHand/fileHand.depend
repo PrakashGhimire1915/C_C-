@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1498730542 source:c:\users\er bikky mahat\desktop\c++ programming\filehand\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+

@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct student{
+	char name[25];
+	char address[25];
+	int id;
+}st;
+
+int main(){
+	
+	printf("enter your name");
+	scanf("%s",st.name);
+	printf("enter your address");
+	scanf("%s",st.address);
+	printf("enter your id");
+	scanf("%d",&st.id);
+	
+	printf("your name is",st.name);
+	printf("your address is",st.address);
+	printf("your id is",st.id);
+	return 0;
+	
+	
+	
+}
+
+
